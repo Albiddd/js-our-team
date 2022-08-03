@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #F5F5F1;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    color: rgb(59, 57, 56);
+}
+.team-header{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+.team-title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.subtitle{
+    line-height: 2;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-img{
+    max-width: 100%;
+}
+.card{
+    color: #6C665F;
+    background-color: white;
+    text-align: center;
+}
+
+.card-text{
+    padding: 12px;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 600
+}
+
+
+/*******************************************************************************
+    BONUS 3
+ *******************************************************************************/
+/* responsive */
+
+@media screen and (min-width:) {
+    
+}
