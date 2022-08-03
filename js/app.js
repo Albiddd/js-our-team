@@ -1,7 +1,9 @@
 
 /*******************************************************************************
-    MILESTONE 1
+    MILESTONE 0
  *******************************************************************************/
+
+
 
 function createTeamEl(name,role,image) {
     const teamElement ={
@@ -22,4 +24,22 @@ const team = [
 ]
 
 console.log(team)
+
+/*******************************************************************************
+    MILESTONE 1
+ *******************************************************************************/
+    console.log(team)
+
+
+/*******************************************************************************
+    MILESTONE 2
+ *******************************************************************************/
+
+const listaEl = document.querySelector('.card')
+
+team.forEach(onLoop)
+
+function onLoop(teamElement){
+listaEl.innerHTML += `<li>${teamElement.name}, ${teamElement.role}, ${teamElement.image}</li>`
+}
 
